@@ -1160,6 +1160,22 @@ margin-right: 0; }
 <ul>
 <li>pictures and roles?</li>
 </ul>
+<aside class="notes">
+<p>Previous talk by Marius und Johannes: https://www.youtube.com/watch?v=Vy5ZXW8p5g4&amp;t=109s</p>
+<ul>
+<li>Gliederung: 1. Why, 2. How to, 3. Applications, 4. Data sharing</li>
+</ul>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
 <section id="web-data-service" class="slide level2">
 <h2>Web data service</h2>
@@ -1177,25 +1193,51 @@ margin-right: 0; }
 <ul>
 <li>highly granular, large-scale data at a fraction of the cost of traditional surveys</li>
 </ul>
+<aside class="notes">
+<ul>
+<li><p>Zahlen zu Social Media Nutzung</p></li>
+<li><p>typische Fragestellungen die Some Daten nutzen</p></li>
+</ul>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
-<section id="prerequisites" class="slide level2">
-<h2>Prerequisites</h2>
-<ol type="1">
-<li><p>seed lists with account names</p></li>
-<li><p>which platforms</p></li>
-<li><p>time frame</p></li>
-</ol>
+<section id="scientific-questions" class="slide level2">
+<h2>Scientific questions</h2>
 </section></section>
 <section>
-<section id="collecting-data-from-social-media-platforms" class="title-slide slide level1 center">
-<h1>Collecting data from social media platforms</h1>
+<section id="best-practices-data-access" class="title-slide slide level1 center">
+<h1>Best practices: data access</h1>
 
 </section>
-<section id="down-the-memory-lane" class="slide level2">
-<h2>Down the memory lane</h2>
+<section id="conceptualization-phase" class="slide level2">
+<h2>Conceptualization phase</h2>
+<ol type="1">
+<li>what to collect?</li>
+</ol>
 <ul>
-<li>API-era</li>
+<li><p><strong>audience-centered</strong>: via keywords, comments, mentions, issues</p></li>
+<li><p><strong>elite-centered</strong>: user accounts of parties or politicians, full timelines, all issues from specific set of users</p></li>
 </ul>
+<ol start="2" type="1">
+<li><p>which platforms?</p></li>
+<li><p>what is the time frame?</p></li>
+</ol>
+</section>
+<section id="down-the-memory-lane-api-era" class="slide level2">
+<h2>Down the memory lane: API era</h2>
+<ul>
+<li>API definition</li>
+</ul>
+<p><span class="math inline">\(/rightarrow\)</span> limitation: dependency on platforms</p>
 </section>
 <section id="most-promising-routes-right-now" class="slide level2">
 <h2>Most promising routes right now</h2>
@@ -1204,10 +1246,60 @@ margin-right: 0; }
 </ul>
 <p>pros: access to non-public data, elections are scheduled</p>
 <p>cons: takes a long time, for surprise elections reactive</p>
+<aside class="notes">
+<ul>
+<li>also link to DSA collaboratories etc.</li>
+</ul>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section></section>
+<section id="best-practices-data-quality" class="title-slide slide level1 center">
+<h1>Best practices: data quality</h1>
+<aside class="notes">
+<ul>
+<li>nicht im Vortrag von Sebastian, aber hier könnte man kurz auf das Papier von Indira und Claudia verweisen:</li>
+</ul>
+<p>https://academic.oup.com/poq/article/85/S1/399/6359490</p>
+<p>https://journals.sagepub.com/doi/10.1177/08944393241245395</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+
+<section>
+<section id="best-practices-data-storage-and-sharing" class="title-slide slide level1 center">
+<h1>Best practices: data storage and sharing</h1>
+
+</section>
+<section id="storage" class="slide level2">
+<h2>Storage</h2>
+<p>small: CSV</p>
+<p>medium: JSON or SQL database</p>
+<p>large: server, needs resources</p>
+</section>
+<section id="sharing" class="slide level2">
+<h2>Sharing</h2>
 </section></section>
 <section>
-<section id="recent-example-btw25" class="title-slide slide level1 center">
-<h1>Recent example: BTW25</h1>
+<section id="example-1-btw25" class="title-slide slide level1 center">
+<h1>Example #1: BTW25</h1>
 
 </section>
 <section id="data" class="slide level2">
@@ -1215,7 +1307,39 @@ margin-right: 0; }
 </section>
 <section id="preliminary-results" class="slide level2">
 <h2>Preliminary results</h2>
+<aside class="notes">
+
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section></section>
+<section id="example-2" class="title-slide slide level1 center">
+<h1>Example #2</h1>
+<aside class="notes">
+<ul>
+<li>use text analysis or network study as example??</li>
+</ul>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+
 <section>
 <section id="new-old-challenges-multimodality" class="title-slide slide level1 center">
 <h1>New (old) challenges: multimodality</h1>
@@ -1224,8 +1348,45 @@ margin-right: 0; }
 <section id="text-is-out" class="slide level2">
 <h2>Text is out</h2>
 <ul>
-<li>numbers on platform usage</li>
+<li><p>numbers on video platform usage</p></li>
+<li><p>research example, e.g., btw on tiktok?</p></li>
 </ul>
+<aside class="notes">
+<p>multimodal: aktuelle forschung, dann pipeline und herausforderungen: speicherokatz, komplexität, legales</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="challenges" class="slide level2">
+<h2>Challenges</h2>
+<ul>
+<li><p>Memory</p></li>
+<li><p>Complexity</p></li>
+<li><p>Legal questions</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>but handling multimodal data is difficult for multiple reasons…</li>
+</ul>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
 <section id="piloting-a-multimodal-analysis-pipeline" class="slide level2">
 <h2>Piloting a multimodal analysis pipeline</h2>
@@ -1238,17 +1399,30 @@ margin-right: 0; }
 <h1>New challenges: the end of “social” media?</h1>
 
 </section>
-<section id="algorithms" class="slide level2">
-<h2>Algorithms</h2>
+<section id="algorithms-influencers-ai" class="slide level2">
+<h2>Algorithms, influencers, AI</h2>
 <ul>
-<li>platforms are becoming more and more algorithmically curated</li>
+<li><p>platforms are becoming more and more algorithmically curated</p></li>
+<li><p>How can we deal with this?</p></li>
 </ul>
 </section></section>
+<section>
 <section id="what-can-we-do-for-you" class="title-slide slide level1 center">
 <h1>What can we do for you</h1>
 
 </section>
-
+<section id="datasets-at-gesis" class="slide level2">
+<h2>Datasets at GESIS</h2>
+</section>
+<section id="beyond-the-web-data-service" class="slide level2">
+<h2>Beyond the web data service</h2>
+<ul>
+<li><p>Consulting</p></li>
+<li><p>Guides</p></li>
+<li><p>AppKit</p></li>
+<li><p>Panel.dbd</p></li>
+</ul>
+</section></section>
 <section id="thank-you" class="title-slide slide level1 center">
 <h1>Thank you!</h1>
 <p>Paul: <a href="paul.bauer@gesis.org">paul.bauer@gesis.org</a></p>
