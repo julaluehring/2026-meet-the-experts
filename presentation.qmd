@@ -1,0 +1,199 @@
+---
+title: "Meet the Experts:<br>Studying elections using data from social media platforms"
+from: markdown+emoji
+format: 
+  gesis-revealjs: 
+    theme: [default, custom.scss]
+    smaller: true
+    transition: slide
+    embed-resources: true
+#bibliography: references.bib
+---
+
+## Meet the team: DSO
+
+- pictures and roles? 
+
+::: notes
+
+Previous talk by Marius und Johannes: https://www.youtube.com/watch?v=Vy5ZXW8p5g4&t=109s
+
+- Gliederung: 1. Why, 2. How to, 3. Applications, 4. Data sharing
+
+::: 
+
+## Web data service
+
+- web data service
+
+
+# Studying [elections] using data from social media platforms
+
+## Why social media platforms? 
+
+- highly granular, large-scale data at a fraction of the cost of traditional surveys
+
+
+
+::: notes
+
+- Zahlen zu Social Media Nutzung
+
+- typische Fragestellungen die Some Daten nutzen
+
+:::
+
+## Scientific questions
+
+# Best practices: data access
+
+## Conceptualization phase
+
+1. what to collect?
+
+- **audience-centered**: via keywords, comments, mentions, issues
+
+- **elite-centered**: user accounts of parties or politicians, full timelines, all issues from specific set of users
+
+2. which platforms?
+
+3. what is the time frame? 
+
+
+## Down the memory lane: API era
+
+- API definition
+
+$/rightarrow$ limitation: dependency on platforms
+
+
+## Most promising routes right now
+
+- apply for platform access via DSA
+
+pros: access to non-public data, elections are scheduled
+
+cons: takes a long time, for surprise elections reactive 
+
+
+::: notes
+
+- also link to DSA collaboratories etc. 
+
+::: 
+
+# Best practices: data quality
+
+
+
+
+::: notes 
+
+- nicht im Vortrag von Sebastian, aber hier könnte man kurz auf das Papier von Indira und Claudia verweisen:
+
+https://academic.oup.com/poq/article/85/S1/399/6359490
+
+https://journals.sagepub.com/doi/10.1177/08944393241245395
+:::
+
+# Best practices: data storage and sharing
+
+## Storage 
+
+
+small: CSV
+
+medium: JSON or SQL database
+
+large: server, needs resources
+
+
+## Sharing
+
+
+
+# Example #1: BTW25
+
+## Data
+
+## Preliminary results
+
+::: notes
+
+
+:::
+
+# Example #2
+
+::: notes
+
+- use text analysis or network study as example??
+
+:::
+
+# New (old) challenges: multimodality
+
+## Text is out
+
+- numbers on video platform usage
+
+- research example, e.g., btw on tiktok?
+
+::: notes
+
+multimodal: aktuelle forschung, dann pipeline und herausforderungen: speicherokatz, komplexität, legales
+
+::: 
+
+## Challenges
+
+- Memory
+
+- Complexity
+
+- Legal questions
+
+
+::: notes
+
+- but handling multimodal data is difficult for multiple reasons...
+
+:::
+
+## Piloting a multimodal analysis pipeline
+
+- pipeline viz
+
+
+# New challenges: the end of "social" media?
+
+## Algorithms, influencers, AI
+
+- platforms are becoming more and more algorithmically curated
+
+- How can we deal with this?
+
+
+# What can we do for you
+
+## Datasets at GESIS
+
+
+## Beyond the web data service
+
+- Consulting
+
+- Guides
+
+- AppKit
+
+- Panel.dbd 
+
+
+
+# Thank you!
+
+Paul: [paul.bauer\@gesis.org](paul.bauer@gesis.org)
+
+Jula: [jula.luehring\@gesis.org](jula.luehring@gesis.org)
+
