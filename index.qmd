@@ -114,12 +114,141 @@ large: server, needs resources
 
 # Example #1: BTW25
 
-## Data
+## Who shows up, who speaks, who is heard?
 
-## Preliminary results
+- Parties and candidates use several platforms at once, but most studies examine one or two platforms at a time and focus on the US
+
+- **Research question:** How did patterns of activity and audience engagement vary across politicians, parties and platforms in the 2025 German federal election?
+
+- Starting point is the registry of **all candidates** and their accounts (Breuer et al., 2026), not a list of active accounts
+
+  - This allows us to distinguish candidates without an account, with an account but no posts, and with active posting
 
 ::: notes
 
+- Working paper with Ilia Frantzi, Johannes Breuer, Sina Chen, Marius Sältzer, Vigneshwaran Shankaran, Felix Beck-Soldner, Leon Fröhling, Paul Bauer and Claudia Wagner
+
+- Three questions in the title: who has an account, who posts, who receives engagement
+
+- The candidate registry is available from the GESIS Data Archive (ZA9076)
+
+:::
+
+## Data: one registry, five platforms, four access routes
+
+| Platform  | Access route                       | Candidates who posted | Posts   |
+|-----------|------------------------------------|----------------------:|--------:|
+| X         | Paid API (v2)                      | 867                   | 112,388 |
+| Instagram | Meta Content Library               | 667                   | 35,478  |
+| Facebook  | Meta Content Library               | 557                   | 34,126  |
+| TikTok    | Web scraping of public profiles    | 715                   | 14,490  |
+| Bluesky   | Open developer API                 | 168                   | 9,873   |
+
+- Observation period: December 23, 2024, to March 2, 2025 (two months before the election and one week after)
+
+- Posts harmonized into a common schema: 213,088 posts by 1,491 candidates
+
+- Analysis restricted to the top five parties: 144,128 posts by 1,027 candidates
+
+::: notes
+
+- Link back to data access: each platform requires its own route, with its own rules and costs
+
+- Meta Content Library: data must be processed in a secure environment, only aggregate statistics can be exported
+
+- Comparability is limited: no shares on Instagram, no views on Facebook and Bluesky, no follower counts for Facebook and Instagram
+
+- Reposts on X and Bluesky carry the counts of the reposted content, so they are excluded from engagement measures
+
+- Less than 25% of posts on X are original posts, so the definition of a "post" matters
+
+:::
+
+## Owning an account is not the same as using it
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](images/btw25_fig2_ownership_activity.png)
+:::
+
+::: {.column width="40%"}
+- 78% (Die Linke) to 89% (Die Grünen) of candidates own at least one account
+
+- Only 35% (Die Linke) to 56% (SPD) posted during the campaign
+
+- The gap is smallest for AfD (26.5 percentage points) and largest for Die Linke (42.9 percentage points)
+:::
+
+::::
+
+::: notes
+
+- An account costs little, sustained posting requires time, staff and strategic commitment
+
+- We measure observable activity: part of the gap may reflect accounts our collection could not capture
+
+:::
+
+## Each platform has its own dominant parties
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](images/btw25_fig5_posts_party_platform.png)
+:::
+
+::: {.column width="40%"}
+- **X and TikTok:** dominated by AfD (37% and 36% of posts)
+
+- **Instagram and Facebook:** mainly CDU/CSU and SPD
+
+- **Bluesky:** about two thirds of posts by Die Grünen, about a quarter by Die Linke
+
+- Per active candidate, challenger parties (AfD, Die Linke) post 1.37 times as much as established parties
+:::
+
+::::
+
+::: notes
+
+- Dark bars: share of posts, light bars: share of posts per active candidate
+
+- Challenger advantage is located mainly on X and TikTok
+
+- Single-platform studies cannot detect this kind of platform specialization
+
+:::
+
+## A few candidates receive most of the attention
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](images/btw25_fig9_engagement_concentration.png)
+:::
+
+::: {.column width="40%"}
+- The most active 10% of candidates produce 38% to 55% of their party's posts
+
+- The top 10% receive 81% to 97% of their party's engagement
+
+- Concentration is strongest on TikTok (more than 90% of likes, shares and views)
+
+- Rather than one online campaign, the election unfolds as **several parallel campaigns**
+:::
+
+::::
+
+::: notes
+
+- Leading figures: Merz, Weidel, Scholz and Habeck. Die Linke has no common leading candidate across platforms
+
+- Followers are concentrated too, and strongly correlated with likes
+
+- Closer to normalization than to equalization within parties
+
+- Takeaway for research practice: findings from one platform do not simply generalize to others
 
 :::
 
